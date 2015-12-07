@@ -1,0 +1,61 @@
+Pointers
+------------
+0x10087a210
+0x101426770
+0x101426255
+0x1013fe12e
+0x101413f3d
+0x10161f904
+0x100cdf3e2
+0x100d3a437
+0x10004b348
+0x10004b274
+0x100515f68
+0x100721783
+0x10071fa87
+0x1004e3f7a
+0x7fff8e6bf9b1
+0x7fff8e6bf92e
+0x7fff8e6bd385
+Raw
+------------
+0   libunity_shared.dylib               0x000000010087a210 _Z18__print_back_tracev + 176
+1   libunity_shared.dylib               0x0000000101426770 _ZZN8graphlab10supervised9neuralnet21SFrameIteratorAdapterC1ENS_6sframeES3_ENKUlvE_clEv + 272
+2   libunity_shared.dylib               0x0000000101426255 _ZN8graphlab10supervised9neuralnet21SFrameIteratorAdapterC2ENS_6sframeES3_ + 469
+3   libunity_shared.dylib               0x00000001013fe12e _ZN8graphlab10supervised9neuralnet15create_iteratorENSt3__110shared_ptrINS_6sframeEEES5_RKNS_13flexible_typeERKNS2_6vectorINS2_4pairINS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESG_EENSE_ISH_EEEEb + 126
+4   libunity_shared.dylib               0x0000000101413f3d _ZN8graphlab10supervised9neuralnet19neuralnet_model_old8evaluateERKNS_6sframeES5_RKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE + 3485
+5   libunity_shared.dylib               0x000000010161f904 _ZN8graphlab10supervised8evaluateERNS_27toolkit_function_invocationE + 1876
+6   libunity_shared.dylib               0x0000000100cdf3e2 _ZNSt3__110__function6__funcIPFN8graphlab30toolkit_function_response_typeERNS2_27toolkit_function_invocationEENS_9allocatorIS7_EES6_EclES5_ + 18
+7   libunity_shared.dylib               0x0000000100d3a437 _ZN8graphlab12unity_global11run_toolkitENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_3mapIS7_N5boost7variantINS9_6detail7variant14recursive_flagINS_13flexible_typeEEENS1_10shared_ptrINS_17unity_sgraph_baseEEENS_11dataframe_tENSG_INS_10model_baseEEENSG_INS_17unity_sframe_baseEEENSG_INS_17unity_sarray_baseEEENS8_IS7_NS9_18recursive_variant_ENS1_4lessIS7_EENS5_INS1_4pairIKS7_SQ_EEEEEENS1_6vectorISQ_NS5_ISQ_EEEENS9_17recursive_wrapperINS_21function_closure_infoEEENSC_5void_ES14_S14_S14_S14_S14_S14_S14_S14_S14_S14_EESS_NS5_INST_ISU_S15_EEEEEE + 1223
+8   unity_server                        0x000000010004b348 _ZN6cppipc6detail27exec_and_serialize_responseIN8graphlab30toolkit_function_response_typeENS2_17unity_global_baseEMS4_FS3_NSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERNS5_3mapISB_N5boost7variantINSD_6detail7variant14recursive_flagINS2_13flexible_typeEEENS5_10shared_ptrINS2_17unity_sgraph_baseEEENS2_11dataframe_tENSK_INS2_10model_baseEEENSK_INS2_17unity_sframe_baseEEENSK_INS2_17unity_sarray_baseEEENSC_ISB_NSD_18recursive_variant_ENS5_4lessISB_EENS9_INS5_4pairIKSB_SU_EEEEEENS5_6vectorISU_NS9_ISU_EEEENSD_17recursive_wrapperINS2_21function_closure_infoEEENSG_5void_ES18_S18_S18_S18_S18_S18_S18_S18_S18_S18_EESW_NS9_INSX_ISY_S19_EEEEEEEJSB_S1D_EE4execEPS4_PNS_11comm_serverES1F_RNS2_8oarchiveERSB_S1D_ + 88
+9   unity_server                        0x000000010004b274 _ZN6cppipc13dispatch_implIN8graphlab17unity_global_baseEMS2_FNS1_30toolkit_function_response_typeENSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEERNS4_3mapISA_N5boost7variantINSC_6detail7variant14recursive_flagINS1_13flexible_typeEEENS4_10shared_ptrINS1_17unity_sgraph_baseEEENS1_11dataframe_tENSJ_INS1_10model_baseEEENSJ_INS1_17unity_sframe_baseEEENSJ_INS1_17unity_sarray_baseEEENSB_ISA_NSC_18recursive_variant_ENS4_4lessISA_EENS8_INS4_4pairIKSA_ST_EEEEEENS4_6vectorIST_NS8_IST_EEEENSC_17recursive_wrapperINS1_21function_closure_infoEEENSF_5void_ES17_S17_S17_S17_S17_S17_S17_S17_S17_S17_EESV_NS8_INSW_ISX_S18_EEEEEEEE7executeEPvPNS_11comm_serverERNS1_8iarchiveERNS1_8oarchiveE + 276
+10  libunity_shared.dylib               0x0000000100515f68 _ZN6cppipc11comm_server8callbackERN8libfault14zmq_msg_vectorES3_ + 3048
+11  libunity_shared.dylib               0x0000000100721783 _ZN8libfault18async_reply_socket11process_jobEPNS0_11thread_dataEPNS_14zmq_msg_vectorE + 1635
+12  libunity_shared.dylib               0x000000010071fa87 _ZN8libfault18async_reply_socket15thread_functionEPNS0_11thread_dataE + 231
+13  libunity_shared.dylib               0x00000001004e3f7a _ZN5boost12_GLOBAL__N_112thread_proxyEPv + 138
+14  libsystem_pthread.dylib             0x00007fff8e6bf9b1 _pthread_body + 131
+15  libsystem_pthread.dylib             0x00007fff8e6bf92e _pthread_body + 0
+16  libsystem_pthread.dylib             0x00007fff8e6bd385 thread_start + 13
+
+Demangled
+------------
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+-------------------------------------------------------
+
+
